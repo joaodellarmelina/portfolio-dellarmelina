@@ -40,7 +40,7 @@ const main = () => {
 	<div className="px-12 lg:px-56 2xl:px-[500px]">		
 			<p className="font-normal text-md sm:text-md text-neutral-300 text-center 
 			[text-wrap:balance]">
-				Desenvolver Front-end, com foco em aplicações mobile e web.  <br />
+				Desenvolvedor Front-end, com foco em aplicações mobile e web.  <br />
 				Aprendizado constante.
 			</p>
 	</div>
