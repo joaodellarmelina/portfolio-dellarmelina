@@ -6,7 +6,7 @@ const Footer = () => {
   return (
   <footer className="bg-neutral-700 flex flex-col sm:mt-16 mt-64 gap-8 p-12 justify-center items-center">
     
-    <h1 className="text-neutral-300 font-bold text-xl">Me contate!</h1>
+    <h1 className="text-neutral-300 font-bold text-xl">Contate-me!</h1>
     
     <div className="flex flex-row gap-6">
       <Link  target="_blank" href={'https://www.linkedin.com/in/jo%C3%A3o-vitor-dellarmelina/'}><Image width={36} height={36} src={'/social_media/linkedin.png'} alt={'Linkedin'}/></Link>
