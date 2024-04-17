@@ -22,9 +22,6 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
               <Image className="embla__slide__number" height={0} width={300} src={'/carousel/startup.JPG'} alt={'man focused on target'} />
             </div>                        
             <div className="embla__slide">
-              <Image className="embla__slide__number" height={0} width={300} src={'/carousel/running.jpg'} alt={'man running a marathon'} />
-            </div>
-            <div className="embla__slide">
               <Image className="embla__slide__number" height={0} width={300} src={'/carousel/computer_boy.jpg'} alt={'using computer to work on class'} />
             </div>
             <div className="embla__slide">
