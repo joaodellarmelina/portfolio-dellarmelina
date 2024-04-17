@@ -19,24 +19,16 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
             <div className="embla__slide">
-              <Image className="embla__slide__number" height={0} width={300} src={'/carousel/startup.JPG'} alt={'man focused on target'} />
+              <Image className="embla__slide__number" height={0} width={10000} src={'/carousel/startup.JPG'} alt={'man focused on target'} />
             </div>                        
             <div className="embla__slide">
-              <Image className="embla__slide__number" height={0} width={300} src={'/carousel/computer_boy.jpg'} alt={'using computer to work on class'} />
+              <Image className="embla__slide__number" height={0} width={10000} src={'/carousel/computer_boy.jpg'} alt={'using computer to work on class'} />
             </div>
             <div className="embla__slide">
-              <Image className="embla__slide__number" height={0} width={300} src={'/carousel/evento.jpg'} alt={'engaged people talking with each other'} />
+              <Image className="embla__slide__number" height={0} width={10000} src={'/carousel/evento.jpg'} alt={'engaged people talking with each other'} />
             </div>           
         </div>
       </div>
-
-      <div className="embla__controls">
-        <div className="embla__buttons">
-          {/* <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} /> */}
-        </div>
-      </div>
-  
   </section>
 
 )
