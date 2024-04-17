@@ -30,14 +30,11 @@ const Header = () => {
           let menu = document.getElementById('open-menu');
           let html = document.getElementsByTagName('html')[0];
           if (toggled) {
-            console.log(html);
-            console.log(menu);
             html.classList.add('overflow-hidden');
-            menu.classList.remove('hidden');
+            menu?.classList.remove('hidden');
           } else {
-            console.log(menu);
             html.classList.remove('overflow-hidden');
-            menu.classList.add('hidden');
+            menu?.classList.add('hidden');
           }
           }} />
       </div>
