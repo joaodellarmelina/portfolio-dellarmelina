@@ -8,7 +8,7 @@ const Header = () => {
   const NotYet = () => {
     swal({ title: 'oooh no! :(',
           text: 'This language is not avaible yet. Please try google translate to a better experience.', 
-          buttons: 'its ok!'})
+          })
   }
 
 
