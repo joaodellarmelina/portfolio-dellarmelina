@@ -12,7 +12,7 @@ export default function Home() {
   const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true }
 
   return (
-    <section className="">
+    <section className=" bg-[url('/giphy.gif')] bg-cover">
       <Header />
       <div className="flex flex-col justify-between gap-24 md:gap-12 h-[900px] py-36 md:py-28"> 
         <Main />
