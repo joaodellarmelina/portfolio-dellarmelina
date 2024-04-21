@@ -14,6 +14,7 @@ const Header = () => {
           text: 'This language is not avaible yet. Please try google translate to a better experience.', 
           })
   }
+
   const NavSobreMim = () => {
     let SobreMimSec = document.getElementById('sobreMimSec');
     let ExperienciaSec = document.getElementById('experienciaSec');
@@ -48,36 +49,36 @@ const Header = () => {
 
   }
 
-  const NavXP = () => {
-    let SobreMimSec = document.getElementById('sobreMimSec');
-    let ExperienciaSec = document.getElementById('experienciaSec');
-    let SobreMimLink = document.getElementById('SobreMimLink');
-    let ExperienciaLink = document.getElementById('ExperienciaLink');
-    let ProjetosSec = document.getElementById('projetosSec');
-    let ProjetosLink = document.getElementById('ProjetosLink');
+  // const NavXP = () => {
+  //   let SobreMimSec = document.getElementById('sobreMimSec');
+  //   let ExperienciaSec = document.getElementById('experienciaSec');
+  //   let SobreMimLink = document.getElementById('SobreMimLink');
+  //   let ExperienciaLink = document.getElementById('ExperienciaLink');
+  //   let ProjetosSec = document.getElementById('projetosSec');
+  //   let ProjetosLink = document.getElementById('ProjetosLink');
 
-    let menu = document.getElementById('open-menu');
-    let html = document.getElementsByTagName('html')[0];
+  //   let menu = document.getElementById('open-menu');
+  //   let html = document.getElementsByTagName('html')[0];
     
-    setIsTrue(false)
-    html.classList.remove('overflow-hidden');
-    menu?.classList.add('hidden');
+  //   setIsTrue(false)
+  //   html.classList.remove('overflow-hidden');
+  //   menu?.classList.add('hidden');
 
 
-    ExperienciaSec?.classList.remove('hidden');
-    ProjetosSec?.classList.add('hidden');
-    SobreMimSec?.classList.add('hidden');
+  //   ExperienciaSec?.classList.remove('hidden');
+  //   ProjetosSec?.classList.add('hidden');
+  //   SobreMimSec?.classList.add('hidden');
 
 
-    SobreMimLink?.classList.remove('brightness-150');
-    ExperienciaLink?.classList.add('brightness-150');
-    ProjetosLink?.classList.remove('brightness-150');
+  //   SobreMimLink?.classList.remove('brightness-150');
+  //   ExperienciaLink?.classList.add('brightness-150');
+  //   ProjetosLink?.classList.remove('brightness-150');
 
-    SobreMimLink?.classList.remove('bottom-1');
-    ExperienciaLink?.classList.add('bottom-1');
-    ProjetosSec?.classList.remove('bottom-1');
-    ProjetosLink?.classList.remove('bottom-1');
-  }
+  //   SobreMimLink?.classList.remove('bottom-1');
+  //   ExperienciaLink?.classList.add('bottom-1');
+  //   ProjetosSec?.classList.remove('bottom-1');
+  //   ProjetosLink?.classList.remove('bottom-1');
+  // }
 
   const NavProjetos = () => {
     let SobreMimSec = document.getElementById('sobreMimSec');
@@ -118,15 +119,16 @@ const Header = () => {
       w-[70%] left-[15%] xl:w-[60%] xl:left-[20%] top-8 absolute -z-1 hidden 
       lg:block lg:blur-xl lg:bg-neutral-700"></div>
  
-      <div className="absolute right-10 top-10 gap-4 hidden lg:flex">
+      <div className="absolute z-30 right-10 top-10 gap-4 hidden lg:flex">
         <Link href={'/'}><Image src={'/languages/flag-brazil.png'} alt={''} width={24} height={24} /></Link>
-        <a onClick={NotYet} ><Image src={'/languages/flag-us.png'} className="cursor-pointer" alt={''} width={24} height={24} /></a>
+        <a onClick={NotYet} className="cursor-pointer" >
+          <Image src={'/languages/flag-us.png'} className="cursor-pointer" alt={'english'} width={24} height={24} /></a>
       </div>
 
       <nav className="lg:flex hidden justify-center gap-56 relative top-10
       text-neutral-500 font-bold text-lg">
         <a onClick={NavSobreMim} id="SobreMimLink" className="cursor-pointer relative bottom-1 brightness-150">Sobre mim</a>
-        <a onClick={NavXP} id="ExperienciaLink" className="cursor-pointer relative hover:bottom-1 hover:brightness-150">Experiências</a>
+        {/* <a onClick={NavXP} id="ExperienciaLink" className="cursor-pointer relative hover:bottom-1 hover:brightness-150">Experiências</a> */}
         <a onClick={NavProjetos} id="ProjetosLink" className="cursor-pointer relative hover:bottom-1 hover:brightness-150">Projetos</a>
       </nav>
  
@@ -151,7 +153,7 @@ const Header = () => {
       <nav id="open-menu" className="absolute hidden rounded-bl-full h-48 w-full bg-neutral-800 overflow-auto">
         <ul className="flex gap-6 py-8 text-left justify-center items-center flex-col z-20">
           <a onClick={NavSobreMim} id="SobreMimLink" ><li className="text-neutral-400 active:text-neutral-500 text-md font-bold">Sobre mim</li></a>
-          <a onClick={NavXP} id="ExperienciaLink" ><li className="text-neutral-400 active:text-neutral-500 text-md font-bold">Experiências</li></a>
+          {/* <a onClick={NavXP} id="ExperienciaLink" ><li className="text-neutral-400 active:text-neutral-500 text-md font-bold">Experiências</li></a> */}
           <a onClick={NavProjetos}><li className="text-neutral-400 active:text-neutral-500 text-md font-bold">Projetos</li></a>
         </ul>
       </nav>
