@@ -9,17 +9,17 @@ import Experiencia from './components/Experiencia';
 import Projetos from './components/Projetos';
 
 export default function Home() {
-  
+
 
 
   return (
     <section id="mainPage" className="bg-[url('/giphy.gif')] bg-cover">
       <Header />
-      <div className="flex flex-col justify-between pt-24 "> 
+      <div className="flex flex-col justify-between pt-24 ">
         <SobreMim />
         <Experiencia />
         <Projetos />
-        <Footer />  
+        <Footer />
       </div>
     </section>
   );

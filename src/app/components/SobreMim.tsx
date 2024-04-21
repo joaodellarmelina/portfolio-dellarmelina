@@ -6,14 +6,14 @@ import Premios from "./Premios";
 
 const SobreMim = () => {
   const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true }
-  
+
   return (
     <section id='sobreMimSec' className='flex flex-col gap-24'>
       <Main />
       <EmblaCarousel options={OPTIONS} />
       <MoreText />
       <Premios />
-    </section> 
+    </section>
   )
 };
 
