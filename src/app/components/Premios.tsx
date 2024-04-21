@@ -61,7 +61,7 @@ const Premios = () => {
 
       </article>
       <div className='flex flex-col gap-4 px-12'>
-        <h2 className='2xl:text-2xl font-black'>...What's Next? 🚀</h2>
+        <h2 className='2xl:text-2xl font-black'>{`...What's Next? 🚀`}</h2>
       </div>
 
 
