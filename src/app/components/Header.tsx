@@ -155,7 +155,14 @@ const Header = () => {
           <a onClick={NavSobreMim} id="SobreMimLink" ><li className="text-neutral-400 active:text-neutral-500 text-md font-bold">Sobre mim</li></a>
           {/* <a onClick={NavXP} id="ExperienciaLink" ><li className="text-neutral-400 active:text-neutral-500 text-md font-bold">Experiências</li></a> */}
           <a onClick={NavProjetos}><li className="text-neutral-400 active:text-neutral-500 text-md font-bold">Projetos</li></a>
+          
+        <li className="flex flex-row gap-4">
+          <Link href={'/'}><Image src={'/languages/flag-brazil.png'} alt={''} width={24} height={24} /></Link>
+        <a onClick={NotYet} className="cursor-pointer" >
+          <Image src={'/languages/flag-us.png'} className="cursor-pointer" alt={'english'} width={24} height={24} /></a>
+        </li>
         </ul>
+        
       </nav>
       
 
