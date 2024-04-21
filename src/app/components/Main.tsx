@@ -17,7 +17,9 @@ const main = () => {
 			bg-gradient-to-r from-neutral-200/60 to-50% to-neutral-200">João Vitor Dellarmelina</h1>
 			
 			{/* letreiro */}
-			<div className=" sm:px-0 px-6 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
+			<div className=" sm:px-0 px-6 inline-flex flex-col 
+			h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] 
+			md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
 				<ul className="bg-neutral-700 text-neutral-400 block animate-text-slide text-left leading-tight [&_li]:block">
 					<li className="flex align-center justify-center 
 					text-center m-auto p-1 md:p-2  text-2xl font-bold">Perfil Inovador</li>
@@ -45,7 +47,6 @@ const main = () => {
 			</p>
 	</div>
 	
-	<Image src={"/arrow-down.png"} alt={"arrow down point down"} width={36} height={36} className=" m-auto pt-4 animate-bounce" />
 
 
     </main> 
