@@ -21,6 +21,7 @@ const Header = () => {
     let SobreMimLink = document.getElementById('SobreMimLink');
     let ExperienciaLink = document.getElementById('ExperienciaLink');
     let ProjetosSec = document.getElementById('projetosSec');
+    let ProjetosLink = document.getElementById('ProjetosLink');
 
     let menu = document.getElementById('open-menu');
     let html = document.getElementsByTagName('html')[0];
@@ -39,11 +40,11 @@ const Header = () => {
 
     SobreMimLink?.classList.add('brightness-150');
     ExperienciaLink?.classList.remove('brightness-150');
-    ProjetosSec?.classList.remove('brightness-150');
+    ProjetosLink?.classList.remove('brightness-150');
 
     SobreMimLink?.classList.add('bottom-1');
     ExperienciaLink?.classList.remove('bottom-1');
-    ProjetosSec?.classList.remove('bottom-1');
+    ProjetosLink?.classList.remove('bottom-1');
 
   }
 
@@ -53,6 +54,7 @@ const Header = () => {
     let SobreMimLink = document.getElementById('SobreMimLink');
     let ExperienciaLink = document.getElementById('ExperienciaLink');
     let ProjetosSec = document.getElementById('projetosSec');
+    let ProjetosLink = document.getElementById('ProjetosLink');
 
     let menu = document.getElementById('open-menu');
     let html = document.getElementsByTagName('html')[0];
@@ -69,11 +71,12 @@ const Header = () => {
 
     SobreMimLink?.classList.remove('brightness-150');
     ExperienciaLink?.classList.add('brightness-150');
-    ProjetosSec?.classList.remove('brightness-150');
+    ProjetosLink?.classList.remove('brightness-150');
 
     SobreMimLink?.classList.remove('bottom-1');
     ExperienciaLink?.classList.add('bottom-1');
     ProjetosSec?.classList.remove('bottom-1');
+    ProjetosLink?.classList.remove('bottom-1');
   }
 
   const NavProjetos = () => {
