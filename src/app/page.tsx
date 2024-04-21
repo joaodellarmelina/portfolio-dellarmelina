@@ -19,7 +19,7 @@ export default function Home() {
         <SobreMim />
         <Experiencia />
         <Projetos />
-      <Footer />  
+        <Footer />  
       </div>
     </section>
   );
