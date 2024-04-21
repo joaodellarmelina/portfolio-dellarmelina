@@ -9,28 +9,28 @@ const Projetos = () => {
 	let InfoCarnawash = document.getElementById("InfoCarnawashSite");
 
 	const showInfoParkspace = () => {	
-		InfoCarnawash.classList.add("hidden");
-		InfoParkApp.classList.add("hidden");
-		InfoYouDriver.classList.add("hidden");
-		InfoParkSite.classList.toggle("hidden");
+		// InfoCarnawash.classList.add("hidden");
+		// InfoParkApp.classList.add("hidden");
+		// InfoYouDriver.classList.add("hidden");
+		// InfoParkSite.classList.toggle("hidden");
 	}
 	const showInfoMazzi = () => {
-		InfoParkSite.classList.add("hidden");
-		InfoParkApp.classList.add("hidden");
-		InfoCarnawash.classList.add("hidden");
-		InfoYouDriver.classList.toggle("hidden");
+		// InfoParkSite.classList.add("hidden");
+		// InfoParkApp.classList.add("hidden");
+		// InfoCarnawash.classList.add("hidden");
+		// InfoYouDriver.classList.toggle("hidden");
 	}	
 	const ShowInfoCarna = () => {
-		InfoParkSite.classList.add("hidden");
-		InfoYouDriver.classList.add("hidden");
-		InfoParkApp.classList.add("hidden");
-		InfoCarnawash.classList.toggle("hidden");
+		// InfoParkSite.classList.add("hidden");
+		// InfoYouDriver.classList.add("hidden");
+		// InfoParkApp.classList.add("hidden");
+		// InfoCarnawash.classList.toggle("hidden");
 	}
 	const InfoParkspaceApp = () => {
-		InfoParkSite.classList.add("hidden");
-		InfoYouDriver.classList.add("hidden");
-		InfoCarnawash.classList.add("hidden");
-		InfoParkApp.classList.toggle("hidden");
+		// InfoParkSite.classList.add("hidden");
+		// InfoYouDriver.classList.add("hidden");
+		// InfoCarnawash.classList.add("hidden");
+		// InfoParkApp.classList.toggle("hidden");
 	}
 
 	const NotYet = () => {
