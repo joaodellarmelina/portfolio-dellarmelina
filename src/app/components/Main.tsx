@@ -38,7 +38,7 @@ const main = () => {
 	</div>
 
 	<div className="px-12 lg:px-56 2xl:px-[500px]">		
-			<p className="font-normal text-md sm:text-md text-neutral-300 text-center 
+			<p className="font-normal text-md lg:text-xl text-neutral-300 text-center 
 			[text-wrap:balance]">
 				Desenvolvedor Front-end, com foco em aplicações mobile e web.  <br />
 				Aprendizado constante.
