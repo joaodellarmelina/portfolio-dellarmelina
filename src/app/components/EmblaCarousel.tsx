@@ -9,7 +9,6 @@ import {
 } from '@/components/ui/carousel'
 
 import Image from 'next/image'
-import '../../../style/embla.css'
 
 type PropType = {
   options?: EmblaOptionsType
