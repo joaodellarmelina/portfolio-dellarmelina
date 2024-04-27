@@ -76,14 +76,14 @@ const Projetos = () => {
               </CardTitle>
               <div className="flex flex-row gap-2">
                 {p.github && (
-                  <Link href={p.github}>
+                  <Link target="_blank" href={p.github}>
                     <Badge className="md:text-xs text-[8px] cursor-pointer bg-neutral-800">
                       GitHub
                     </Badge>
                   </Link>
                 )}
                 {p.site && (
-                  <Link href={p.site}>
+                  <Link target="_blank" href={p.site}>
                     <Badge className="cursor-pointer bg-neutral-800">
                       Ver mais
                     </Badge>
