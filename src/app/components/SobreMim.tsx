@@ -1,5 +1,4 @@
 import EmblaCarousel from './EmblaCarousel'
-import { EmblaOptionsType } from 'embla-carousel'
 import MoreText from './MoreText'
 import Main from './Main'
 import Premios from './Premios'
