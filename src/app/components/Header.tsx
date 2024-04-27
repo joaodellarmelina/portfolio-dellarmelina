@@ -122,7 +122,7 @@ const Header = () => {
       </div>
       <nav
         id="open-menu"
-        className="absolute hidden rounded-bl-full h-48 w-full bg-neutral-800 overflow-auto"
+        className="absolute hidden rounded-bl-full h-48 w-full bg-amber-700/20 overflow-auto"
       >
         <ul className="flex gap-6 py-8 text-left justify-center items-center flex-col z-20">
           <a onClick={NavSobreMim} id="SobreMimLink">
