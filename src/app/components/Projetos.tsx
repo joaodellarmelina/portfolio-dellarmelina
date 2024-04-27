@@ -72,7 +72,9 @@ const Projetos = () => {
           <Card className="bg-amber-800/20 border-neutral-100/10" key={p.name}>
             <CardHeader className="flex flex-col gap-1">
               <CardTitle className="text-neutral-300">
-                <Link href={p.site ?? p.github}>{p.name}</Link>
+                <Link target="_blank" href={p.site ?? p.github}>
+                  {p.name}
+                </Link>
               </CardTitle>
               <div className="flex flex-row gap-2">
                 {p.github && (
